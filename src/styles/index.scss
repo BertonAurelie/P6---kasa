@@ -1,0 +1,20 @@
+* {
+    margin : 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    gap:43px;
+    height:fit-content;
+    width: 100%;
+}

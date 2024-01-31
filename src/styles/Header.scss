@@ -1,0 +1,30 @@
+header {
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin: 45px 0 50px 0;
+}
+
+nav {
+    display:flex;
+
+    ul {
+        display:flex;
+        list-style: none;
+        gap:57px;
+    }
+
+    li {
+        font-size:24px;
+    }
+
+    a {       
+        color:black;
+        text-decoration-line: none;
+        :active {
+        text-decoration-line: underline;
+        }
+    }
+}

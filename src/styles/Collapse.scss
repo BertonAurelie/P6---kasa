@@ -1,0 +1,39 @@
+
+.about-section {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:71%;
+    align-self: center;
+        .about-section__display {
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;            
+            background-color: #FF6060;
+            padding: 10px 20px 10px 15px;
+        }
+            .about-section__title {
+                color:white;
+            }
+            .about-section__button {
+                width:32px;
+                height:32px;   
+                background-color: #FF6060;
+                border:none;
+                transition: transform 0.4s;
+            }
+            .about-section__button_active{
+                width:32px;
+                height:32px;   
+                background-color: #FF6060;
+                border:none;
+                transition: transform 0.4s;
+                transform: rotate(-0.5turn);
+
+            }
+            .about-section__hidden {
+                padding: 10px 20px 10px 15px;
+            }
+}

@@ -1,0 +1,44 @@
+.gallery {
+    display:flex;
+    width:80%;
+    height:auto;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    .gallery__cards{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: center;
+        align-items: center;
+        gap:40px;
+
+        .card {
+            position:relative;
+            width:340px;
+            height:340px;
+            border-radius: 25px;
+            img {
+                z-index:1 ;
+                width:340px;
+                height:340px;
+                border-radius: 25px;
+                object-fit: cover;
+            }
+            .card__title {
+                position: absolute;
+                width: 50%;
+                height:auto;
+                bottom: 8px;
+                left: 16px;
+                z-index:2;
+                font-size: 18px;
+                font-weight: 700;
+                color:rgb(255, 255, 255);
+                line-height: 142.6%;
+
+            }
+        }
+    }
+}
