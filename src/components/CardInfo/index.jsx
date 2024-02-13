@@ -4,16 +4,14 @@ import arrowOnPageAbout from '../../assets/arrowOnPageAbout.svg'
 
 function CardInfo({data}) {
   const { id } = useParams();
-
+  const item = data.filter((item) => item.title === id)[0];
   const [isVisible1, setisVisible1] = useState(false)
   const [isVisible2, setisVisible2] = useState(false)
   
   return (
     <>
       <section className="info">
-          {data
-            .filter((item) => item.title === id)
-            .map((item) => (
+          {
               <div className="card-info" key={id}>
                 <section className = "top_info">
                   <div className = "card-info__title-tag">
@@ -59,7 +57,7 @@ function CardInfo({data}) {
                   </div>
                 </section>
               </div>
-            ))}
+            }
       </section>
     </>
   );
