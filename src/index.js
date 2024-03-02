@@ -16,15 +16,11 @@ root.render(
       <Header />
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>} />
+        <Route path="/À_propos" element={<About/>} />
         <Route path="*" element={<ErrorPage/>} />
-        <Route path="/lodging/:id" element={<Lodging/>} />
+        <Route path="/Logements/:id" element={<Lodging/>} />
       </Routes>
       <Footer />
     </Router>
   </React.StrictMode>,
 );
-
-//faire le underline active sur le header
-//changer la couleur du SVG du footer
-//ajouter un voile sur l'image du Banner

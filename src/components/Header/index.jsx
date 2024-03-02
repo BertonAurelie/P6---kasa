@@ -8,10 +8,10 @@ function Header() {
         <header>
             <img src={logo} alt="logo du site" id = "logo"/>
             
-            <nav>
+            <nav className = "header__navbar">
                 <ul>
-                    <li ><Link to="/">Accueil</Link></li>
-                    <li><Link to="/about">A propos</Link></li>
+                    <li><Link to="/">Accueil</Link></li>
+                    <li><Link to="/À_propos">A propos</Link></li>
                 </ul>
             </nav>
         </header>

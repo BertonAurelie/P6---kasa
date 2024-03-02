@@ -1,15 +1,33 @@
+$color-primary : #ffffff;
+
+
 footer {
     display: flex;
     height: 209px;
     background-color: black;
-    color:white;
+    color:$color-primary;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top:50px;
 
-    img {
-        width:122px;
+    @media (max-width: 376px) {
+        margin-top:27px;
+        gap: 15px;
     }
 
+    img {
+        width:122px;
+        filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(62deg) brightness(104%) contrast(101%);
+    }
+
+    p {
+
+        @media (max-width: 376px) {
+        font-size: 12px;
+         line-height: 17.11px;
+         width: 100px;
+         text-align: center;
+        }
+    }
 }
