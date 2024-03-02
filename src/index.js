@@ -5,6 +5,7 @@ import './styles/index.scss'
 import Home from './pages/Home'
 import About from './pages/About'
 import ErrorPage from './pages/Error'
+import Lodging from './pages/Lodging'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -14,16 +15,12 @@ root.render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/À_propos" element={<About/>} />
         <Route path="*" element={<ErrorPage/>} />
+        <Route path="/Logements/:id" element={<Lodging/>} />
       </Routes>
       <Footer />
     </Router>
   </React.StrictMode>,
 );
-
-
-//faire le underline active sur le header
-//changer la couleur du SVG du footer
-//ajouter un voile sur l'image du Banner

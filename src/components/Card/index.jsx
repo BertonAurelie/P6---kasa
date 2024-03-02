@@ -1,28 +1,21 @@
-import {lodgingsList} from '../../datas/lodgingsList'
 
-// State
+import { Link } from "react-router-dom";
+import data from '../../datas/lodgingsList.json'
 
 function Gallery() {
-//state (état, données)
-    const categories = lodgingsList
-//comportements
-
-//affichage (render)
     return (
-        <div className='gallery__cards'>
-                {categories.map((card) => (
-                    <a href="#" key={card.id}>
+        <>
+            <div className='gallery__cards'>
+                    {data.map((item) => (
+                        <Link to={`/logements/${item.title}/`} key={item.id}>
                         <article className='card'>
-                            <img 
-                                src ={card.cover}
-                                alt = "présentation du logement à louer"
-                                />
-                            <h2 className="card__title">{card.title}</h2>
+                            <img src={item.cover}  alt = "présentation du logement à louer" />
+                            <h2 className="card__title">{item.title}</h2>    
                         </article>
-                    </a>
-                ))}
-        </div>
+                        </Link>
+                    ))}    
+            </div>
+        </>
     )
 }
-
 export default Gallery

@@ -6,7 +6,7 @@ const Banner = (props) => (
             src= {props.image} 
             alt = {props.alt}
         />
-        <p>{props.text}</p>
+        <h1>{props.text}</h1>
     </>
 )
 

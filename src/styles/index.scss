@@ -4,17 +4,31 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #root {
-    width:100%;
+    width:86%;
     min-height: 100vh;
     display:flex;
     flex-direction: column;
+    @media (max-width: 376px) {
+        width:100%;
+
+    }
 }
 
 main {
     display:flex;
     flex-direction: column;
     gap:43px;
-    height:fit-content;
-    width: 100%;
+    width:100%;
+    @media (max-width: 376px) {
+        gap:20px;
+        width:89%;
+        align-self: center;
+    }
 }
