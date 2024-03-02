@@ -4,6 +4,7 @@ import Rating from '../Rating'
 function CardInfo(props) {
   const item = props.item;
   const id = props.id
+
   
   return (
     <>

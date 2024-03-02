@@ -3,11 +3,15 @@ import Carousel from '../../components/Slideshow'
 import '../../styles/Lodging.scss'
 import lodgingsList from '../../datas/lodgingsList'
 import { useParams } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function Lodging() {
     const { id } = useParams();
     const item = lodgingsList.filter((item) => item.title === id)[0];
     
+    if (item === undefined) {
+        return <Navigate to="/404" replace />
+    }
 
     return (
         <>
