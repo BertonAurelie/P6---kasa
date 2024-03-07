@@ -52,6 +52,20 @@ $main-color:#FF6060;
             }
             .about-section__hidden {
                 padding: 10px 20px 10px 15px;
-                line-height: 142.6%
+                line-height: 142.6%;
+                p {
+                    animation-duration: 0.1s ;
+                    animation-name: show;
+                    
+                    @keyframes show {
+                        from {
+                            transform: translateY(-20%);
+                        }
+                      
+                        to {
+                            transform: translateY(0%);
+                        }
+                    }
+                }
             }
 }
