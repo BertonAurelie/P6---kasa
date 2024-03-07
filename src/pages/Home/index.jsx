@@ -6,6 +6,7 @@ import '../../components/Card/Card.scss'
 
 
 function Home() {
+
   return (
     
     <>
@@ -14,7 +15,7 @@ function Home() {
           <Banner
             image ={imageBannerHome} 
             alt = "vu d'un paysage lors d'un voyage de rêve" 
-            text="Chez vous, partout et ailleurs"
+            text="Chez vous, partout et ailleurs" 
           >
           </Banner>
         </div>

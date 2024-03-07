@@ -8,9 +8,9 @@ function About() {
     return (
     <>
       <main>
-        <div className = "banner__type">
+        <div className = "banner__type--about">
           <Banner
-          image ={imageBannerAbout} 
+          image ={imageBannerAbout} style={{filter: 'none'}}
           alt = "vu d'un paysage lors d'un voyage de rêve" 
           >
           </Banner>
