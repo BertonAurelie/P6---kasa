@@ -1,8 +1,8 @@
 import Banner from "../../components/Banner";
 import Gallery from "../../components/Card";
 import imageBannerHome from '../../assets/imageBannerHome.png'
-import '../../styles/Banner.scss'
-import '../../styles/Card.scss'
+import '../../components/Banner/Banner.scss'
+import '../../components/Card/Card.scss'
 
 
 function Home() {

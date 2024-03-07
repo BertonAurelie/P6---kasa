@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import arrowOnPageAbout from '../../assets/arrowOnPageAbout.svg'
-import '../../styles/Collapse.scss'
+import './Collapse.scss'
 
 function Collapse(props){
     const [isVisible, setisVisible] = useState(false)

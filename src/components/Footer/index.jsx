@@ -1,5 +1,5 @@
 import logo from '../../assets/logo-kasa.svg'
-import '../../styles/Footer.scss'
+import './Footer.scss'
 import { MdOutlineCopyright } from "react-icons/md";
 
 function Footer() {
