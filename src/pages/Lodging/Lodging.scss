@@ -3,7 +3,7 @@ $main-color:#FF6060;
 
 
 .carousel{
-    width:100%;
+    width:86%;
     height: 415px;
     display:flex;
     justify-content: center;
@@ -78,7 +78,7 @@ $main-color:#FF6060;
             }
             img {
                 width:100%;
-                object-fit:fill;
+                object-fit: cover;
                 border-radius: 25px;
                 
 
@@ -93,7 +93,8 @@ $main-color:#FF6060;
 .card-info {
     display:flex;
     flex-direction: column;
-    width:100%;
+    align-self: center;
+    width:86%;
     height:fit-content;
 
     @media (max-width: 376px) {

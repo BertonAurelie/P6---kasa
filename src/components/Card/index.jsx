@@ -7,7 +7,7 @@ function Gallery() {
         <>
             <div className='gallery__cards'>
                     {data.map((item) => (
-                        <Link to={`/logements/${item.title}/`} key={item.id}>
+                        <Link to={`/logements/${item.id}/`} key={item.id}>
                         <article className='card'>
                             <img src={item.cover}  alt = "présentation du logement à louer" />
                             <h2 className="card__title">{item.title}</h2>    

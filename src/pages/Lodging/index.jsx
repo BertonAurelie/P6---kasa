@@ -7,7 +7,7 @@ import { Navigate } from "react-router-dom";
 
 function Lodging() {
     const { id } = useParams();
-    const item = lodgingsList.filter((item) => item.title === id)[0];
+    const item = lodgingsList.filter((item) => item.id === id)[0];
     
     if (item === undefined) {
         return <Navigate to="/404" replace />
