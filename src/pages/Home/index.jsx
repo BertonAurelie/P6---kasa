@@ -12,12 +12,14 @@ function Home() {
     <>
       <main>
         <div className = "banner__type">
-          <Banner
-            image ={imageBannerHome} 
-            alt = "vu d'un paysage lors d'un voyage de rêve" 
-            text="Chez vous, partout et ailleurs" 
-          >
-          </Banner>
+          <div id = "banner__type--img">
+            <Banner
+              image ={imageBannerHome} 
+              alt = "vu d'un paysage lors d'un voyage de rêve" 
+              text="Chez vous, partout et ailleurs" 
+            >
+            </Banner>
+          </div>
         </div>
         <div className = "gallery">
           <Gallery />

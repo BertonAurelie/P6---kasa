@@ -11,7 +11,7 @@ function Header() {
             <nav className = "header__navbar">
                 <ul>
                     <li><Link to="/">Accueil</Link></li>
-                    <li><Link to="/À_propos">A propos</Link></li>
+                    <li><Link to="/a_propos">A propos</Link></li>
                 </ul>
             </nav>
         </header>
