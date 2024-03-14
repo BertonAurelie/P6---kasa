@@ -9,9 +9,14 @@ $main-color:#FF6060;
     width:83%;
     align-self: center;
     border-radius: 5px;
+
     @media (max-width: 376px) {
         width:89%;
     }
+    article {
+        display:flex;
+        flex-direction: column;
+
         .about-section__display {
             display:flex;
             flex-direction: row;
@@ -21,6 +26,7 @@ $main-color:#FF6060;
             background-color: $main-color;
             padding: 10px 20px 10px 15px;
             border-radius: 5px;
+            z-index:4;
 
             @media (max-width: 376px) {
                 height:30px;  
@@ -51,15 +57,19 @@ $main-color:#FF6060;
 
             }
             .about-section__hidden {
+                display:flex;
                 padding: 10px 20px 10px 15px;
                 line-height: 142.6%;
+                z-index:2;
+                overflow: hidden;
+
                 p {
-                    animation-duration: 0.1s ;
+                    animation-duration: 0.5s ;
                     animation-name: show;
                     
                     @keyframes show {
                         from {
-                            transform: translateY(-20%);
+                            transform: translateY(-80%);
                         }
                       
                         to {
@@ -68,4 +78,5 @@ $main-color:#FF6060;
                     }
                 }
             }
+        }
 }

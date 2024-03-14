@@ -11,7 +11,7 @@ $main-color:#FF6060;
     align-self: center;
     flex-direction: column;border-radius: 25px;
 
-    @media (max-width: 376px) {
+    @media (max-width: 768px) {
         height: 255px;
     }
 
@@ -35,7 +35,7 @@ $main-color:#FF6060;
             border:none;
             color:$color-primary;
 
-            @media (max-width: 376px) {
+            @media (max-width: 768px) {
                 font-size: 24px;
                 height:24px;
             }
@@ -52,7 +52,7 @@ $main-color:#FF6060;
             border:none;
             color:$color-primary;
 
-            @media (max-width: 376px) {
+            @media (max-width: 768px) {
                 font-size: 24px;
                 height:24px;
             }
@@ -72,7 +72,7 @@ $main-color:#FF6060;
                 color:$color-primary;
                 font-size:18px;
 
-                @media (max-width: 376px) {
+                @media (max-width: 767px) {
                     display:none;
                 }
             }
@@ -82,7 +82,7 @@ $main-color:#FF6060;
                 border-radius: 25px;
                 
 
-                @media (max-width: 376px) {
+                @media (max-width: 768px) {
                     border-radius: 10px;
                 }
                 }
@@ -97,7 +97,7 @@ $main-color:#FF6060;
     width:86%;
     height:fit-content;
 
-    @media (max-width: 376px) {
+    @media (max-width: 768px) {
     }
 
     .top_info {
@@ -107,7 +107,7 @@ $main-color:#FF6060;
         justify-content: space-between;
         margin-bottom: 30px;
 
-        @media (max-width: 376px) {
+        @media (max-width: 768px) {
             flex-direction: column;
         }
 
@@ -119,7 +119,7 @@ $main-color:#FF6060;
             gap:20px;
             line-height: 142.6%;
 
-            @media (max-width: 376px) {
+            @media (max-width: 768px) {
                 width:100%;
             }
 
@@ -130,7 +130,7 @@ $main-color:#FF6060;
                 font-weight: 500;
                 line-height: 142.6%;
 
-                @media (max-width: 376px) {
+                @media (max-width: 768px) {
                     font-size: 18px;                    
                     font-weight:bolder;
                 }
@@ -142,7 +142,7 @@ $main-color:#FF6060;
                 font-size: 18px;
                 font-weight: 500;
 
-                @media (max-width: 376px) {
+                @media (max-width: 768px) {
                     font-size: 14px;
                     font-weight: bold;
                 }
@@ -159,7 +159,7 @@ $main-color:#FF6060;
                 font-weight: 500;
                 list-style: none;
 
-                @media (max-width: 376px) {
+                @media (max-width: 768px) {
                 }
 
                 .tag {
@@ -176,7 +176,7 @@ $main-color:#FF6060;
                         align-items: center;
                         justify-content: center;
 
-                        @media (max-width: 376px) {
+                        @media (max-width: 768px) {
                             width: auto;
                             padding: 3px 12px;
                             height: 18px;
@@ -195,7 +195,7 @@ $main-color:#FF6060;
             flex-direction: column;
             gap:40px;
 
-            @media (max-width: 376px) {
+            @media (max-width: 768px) {
                 flex-direction: row-reverse;
                 justify-content: space-between;
                 padding-top: 20px;
@@ -214,7 +214,7 @@ $main-color:#FF6060;
                     font-size: 18px;
                     font-weight: 500;
 
-                    @media (max-width: 376px) {
+                    @media (max-width: 768px) {
                     font-size: 12px;
                     }
                 }
@@ -224,7 +224,7 @@ $main-color:#FF6060;
                 height: 64px;
                 border-radius: 50px;
                 
-                @media (max-width: 376px) {
+                @media (max-width: 768px) {
                     width: 32px;
                     height: 32px;  
                 }
@@ -238,7 +238,7 @@ $main-color:#FF6060;
                 width: 50px;
                 height: 36px;
 
-                @media (max-width: 376px) {
+                @media (max-width: 768px) {
                     width: 98px;
                     height: 18px;
 
@@ -259,7 +259,7 @@ $main-color:#FF6060;
         width:100%;
         gap:76px;
         
-        @media (max-width: 376px) {
+        @media (max-width: 768px) {
             flex-direction: column;
             gap:20px;
 
@@ -268,7 +268,7 @@ $main-color:#FF6060;
         .card__info-description, .card__info-equipment {
         width:50%;
 
-        @media (max-width: 376px) {
+        @media (max-width: 768px) {
             width:100%;
 
         }
